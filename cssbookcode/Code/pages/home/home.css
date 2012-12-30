@@ -1,0 +1,20 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+}
+    .homepage .tile {
+        background-color: darkgoldenrod;
+        width: 150px;
+        height: 80px;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+    }
+}

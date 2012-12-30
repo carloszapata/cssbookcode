@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>chapter1</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="chapter1.css" rel="stylesheet" />
+    <script src="chapter1.js"></script>
+</head>
+<body>
+    <div class="chapter1 fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to chapter1</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+
+            <div data-win-control="WinJS.UI.ToggleSwitch"></div>
+            <div class="bigbold">
+                Big bold text
+            </div>
+            <br /><br />
+            <div class="stitched">
+                stitched
+            </div>
+            <span data-food-types="dairy meat">meal</span>
+            <p class="dropCap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus id ante consectetur mollis ut sed nisi. Aliquam a nunc blandit leo faucibus placerat vel id urna. Praesent lacinia, ligula non bibendum faucibus, purus libero pellentesque nunc, nec cursus elit velit sit amet sapien. Donec vulputate faucibus tortor eget pulvinar. Nam porttitor leo et elit volutpat quis sagittis massa tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id elit dolor. In sit amet mi sem. Sed mauris velit, vestibulum id egestas eget, lobortis at nisl. Etiam sodales eros et sem elementum luctus. Fusce ultricies ante eu turpis posuere eget scelerisque urna imperdiet. Integer tempus libero non metus scelerisque mattis. Vivamus lorem orci, elementum vitae ultricies et, vulputate a augue. Morbi sollicitudin, lacus nec condimentum dictum, ante urna condimentum leo, a sollicitudin nulla lectus eget risus. Suspendisse gravida imperdiet enim non iaculis. Maecenas dignissim mattis massa, eget auctor mauris luctus ac.</p>
+            <div id="myDiv"></div><br /><br />
+
+            <div id="checkboxes">
+                <input type="checkbox" />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+                <input type="checkbox" checked />
+                <input type="checkbox" />
+            </div>
+
+            <div>
+                <table id="myTable">
+                    <tr><td>Beans</td><td>2.7</td><td>67%</td></tr>
+                    <tr><td>Corn</td><td>1.7</td><td>40%</td></tr>
+                    <tr><td>Beets</td><td>2.9</td><td>77%</td></tr>
+                    <tr><td>Carrots</td><td>7.0</td><td>62%</td></tr>
+                    <tr><td>Celery</td><td>12.3</td><td>50%</td></tr>
+                </table>
+            </div>
+
+            <a href="" title="link title">link</a>
+        </section>
+    </div>
+</body>
+</html>
