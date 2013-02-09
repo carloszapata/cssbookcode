@@ -58,10 +58,12 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="images\chapterTileBackground.png" />
     <Content Include="images\chicken_disabled_empty.svg" />
     <Content Include="images\chicken_disabled_full.svg" />
     <Content Include="images\chicken_empty.svg" />
     <Content Include="images\chicken_full.svg" />
+    <Content Include="images\cover.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
@@ -71,6 +73,29 @@
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
     <Content Include="js\ocho.js" />
+    <Content Include="pages\appendixB\lstb01\lstb01.css" />
+    <Content Include="pages\appendixB\lstb01\lstb01.html" />
+    <Content Include="pages\appendixB\lstb01\lstb01.js" />
+    <Content Include="pages\appendixB\lstb02\lstb02.css" />
+    <Content Include="pages\appendixB\lstb02\lstb02.html" />
+    <Content Include="pages\appendixB\lstb02\lstb02.js" />
+    <Content Include="pages\appendixB\lstb03\lstb03.css" />
+    <Content Include="pages\appendixB\lstb03\lstb03.html" />
+    <Content Include="pages\appendixB\lstb03\lstb03.js" />
+    <Content Include="pages\appendixB\lstb04\lstb04.css" />
+    <Content Include="pages\appendixB\lstb04\lstb04.html" />
+    <Content Include="pages\appendixB\lstb04\lstb04.js" />
+    <Content Include="pages\appendixB\lstb06\lstb06.css" />
+    <Content Include="pages\appendixB\lstb06\lstb06.html" />
+    <Content Include="pages\appendixB\lstb06\lstb06.js" />
+    <Content Include="pages\appendixB\lstb06\sailboat.svg" />
+    <Content Include="pages\appendixB\lstb07\lstb07.css" />
+    <Content Include="pages\appendixB\lstb07\lstb07.html" />
+    <Content Include="pages\appendixB\lstb07\lstb07.js" />
+    <Content Include="pages\appendixB\lstb07\paint.svg" />
+    <Content Include="pages\appendixB\lstb09\lstb09.css" />
+    <Content Include="pages\appendixB\lstb09\lstb09.html" />
+    <Content Include="pages\appendixB\lstb09\lstb09.js" />
     <Content Include="pages\box\box.css" />
     <Content Include="pages\box\box.html" />
     <Content Include="pages\box\box.js" />
@@ -99,6 +124,9 @@
     <Content Include="pages\chapter10\lst1012\lst1012.css" />
     <Content Include="pages\chapter10\lst1012\lst1012.html" />
     <Content Include="pages\chapter10\lst1012\lst1012.js" />
+    <Content Include="pages\chapter2\lst0206\lst0206.css" />
+    <Content Include="pages\chapter2\lst0206\lst0206.html" />
+    <Content Include="pages\chapter2\lst0206\lst0206.js" />
     <Content Include="pages\chapter3\chapter1.css" />
     <Content Include="pages\chapter3\chapter1.html" />
     <Content Include="pages\chapter3\chapter1.js" />
@@ -346,7 +374,6 @@
   <ItemGroup>
     <Folder Include="pages\chapter10\lst1006\" />
     <Folder Include="pages\chapter1\" />
-    <Folder Include="pages\chapter2\" />
     <Folder Include="pages\chapter3\lst0301\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
