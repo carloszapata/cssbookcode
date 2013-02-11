@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="BookCode" Version="1.0.0.0" Publisher="CN=jerfost" />
+  <Identity Name="CSSBookCode" Version="1.0.0.0" Publisher="CN=jerfost" />
   <Properties>
-    <DisplayName>Code</DisplayName>
+    <DisplayName>Source Code for CSS for Windows 8 App Development</DisplayName>
     <PublisherDisplayName>jerfost</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -15,9 +15,9 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Code" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Code" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="images\splashscreen.png" />
+      <VisualElements DisplayName="Code" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Code" ForegroundText="light" BackgroundColor="black">
+        <DefaultTile ShowName="noLogos" ShortName="CSS" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="white" />
       </VisualElements>
     </Application>
   </Applications>
